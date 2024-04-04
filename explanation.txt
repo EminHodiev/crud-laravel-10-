@@ -1,0 +1,59 @@
+Today i will show you how to create a CRUD (CREATE, READ, UPDATE, DELETE) - system in laravel 10 using
+Ajax - Jquery with from validations.
+Сегодня я покажу вам, как создать систему CRUD (CREATE, READ, UPDATE, DELETE) в Laravel 10 с использованием
+Ajax - Jquery с валидацией формы.
+
+So let's get started..
+Итак, давайте начнем...
+
+First of all create a fresh Laravel 10 project
+Прежде всего создайте новый проект Laravel 10
+
+then, configure database connections in .env file
+затем настройте подключение к базе данных в файле .env
+
+For me I use OSpanel (MySQL - RDBMS)
+Для меня я использую OSpanel (MySQL - RDBMS)
+
+then, create a model and it's migration...
+затем создайте модель и миграцию для нее...
+
+then modify the migration to meet requirements
+затем измените миграцию, чтобы соответствовать требованиям
+
+then, migrate then database configuration to create a db and the teachers table..
+затем выполните миграцию и настройте базу данных для создания базы данных и таблицы учителей
+
+now create a controller to perform the logic...
+теперь создайте контроллер для выполнения логики...
+
+now, create a route to display list of all teachers..
+теперь создайте маршрут для отображения списка всех учителей...
+
+run your project..
+запустите ваш проект..
+
+now add a form to add teachers.. in Ajax with form validations.
+теперь добавьте форму для добавления учителей в Ajax с валидацией формы.
+
+now we perform the logic to add new teacher in ajax..
+теперь мы выполняем логику добавления нового учителя в ajax..
+
+now let's try to see if validations works..
+теперь давайте попробуем посмотреть, работает ли валидация..
+
+now add validations message to other fields in a form
+теперь добавьте сообщения о валидации для других полей в форме
+
+now add data to database..
+теперь добавьте данные в базу данных..
+
+so data is added successfully now the modal should be closed automatically and reload the page
+таким образом, данные успешно добавлены, теперь модальное окно должно закрываться автоматически
+и перезагружать страницу
+
+now create the action buttons..
+теперь создайте кнопки действий..
+
+where we'll edit and delete the teacher from our CRUD system.
+где мы будем редактировать и удалять учителя из нашей CRUD системы.
